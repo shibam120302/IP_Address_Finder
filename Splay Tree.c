@@ -209,7 +209,7 @@ int main()
     int x;
     int find[11] = {104, 112, 117, 124, 121, 108, 109, 111,
                     122, 125, 129};
-    int add[11] = {a, b, c, d, e, f, g, h, i, j, k};
+    int* add[11] = {a, b, c, d, e, f, g, h, i, j, k};
     srand(time(0));
     for (x = 0; x < 11; x++)
     {
